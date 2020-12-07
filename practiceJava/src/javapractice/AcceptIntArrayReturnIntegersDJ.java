@@ -2,8 +2,11 @@ package javapractice;
 
 public class AcceptIntArrayReturnIntegersDJ {
 
+	int[] arr= {7,4,5,8,8,9};
 	public static void main(String[] args) {
-		// T
+		
+		
+		// write program to generate function that accepts integer array and returns number
 		int arr[]= {7,4,5,8,8,9};
 		
 		for(int i=0;i<arr.length;i++) {
@@ -14,7 +17,7 @@ public class AcceptIntArrayReturnIntegersDJ {
 	
 	
 	public int returnNumber(int[]arr) {
-		arr= {7,4,5,8,8,9};
+		
 		int i=0;
 		for( i=0;i<arr.length;i++) {
 			
